@@ -1,0 +1,15 @@
+<div class="header {{ include.classes | '' }}">
+  <div class="header-inner">
+    <div class="wrapper">
+      <section class="home-link">
+        <h1><a href="{{ '/' | prepend: site.github.url }}">View Source<sup>01</sup></a></h1>
+        <nav>
+          <a href="{{ site.cssconf_url }}" class="hide-mobile">CSSConf<span> — 01 Dec</span></a>
+          <a href="{{ site.jsconf_url }}" class="hide-mobile">JSConf<span> — 01 Dec</span></a>
+          <a href="{{ site.decompress_url }}" class="hide-mobile">Decompress<span> — 02 Dec</span></a>
+        </nav>
+      </section>
+      <p class="header-ticket-link"><a href="{{ site.ticket_url }}">Buy Tickets</a></p>
+    </div>
+  </div>
+</div>
