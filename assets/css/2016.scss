@@ -5,6 +5,7 @@
 
 // Variables
 $primary: #000000;
+$spot: rgb(255, 13, 191);
 
 $break-mobile: 42.25rem;
 $break-form: 48.75rem;
@@ -26,6 +27,19 @@ $break-form: 48.75rem;
   font-style: normal;
   font-weight: 400;
 }
+
+// @-webkit-keyframes pulsate {
+//     0% {
+//       -webkit-transform: skew(-10deg);
+//     }
+//     50% {
+//       -webkit-transform: skew(0deg);
+//     }
+//     100% {
+//       -webkit-transform: skew(-10deg);
+//     }
+// }
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base",

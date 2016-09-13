@@ -11,7 +11,7 @@
       border-bottom: 2px solid transparent;
       color: inherit;
       display: table;
-      margin-left: 2rem;
+      // margin-left: 2rem;
       @media screen and (max-width: 1000px) {
         span { display: none; }
       }
@@ -115,6 +115,8 @@
   height: 100vh;
   margin-top: calc(10vh - 5px);
   z-index: 1;
+  // -webkit-animation: pulsate 14s ease-out;
+  // -webkit-animation-iteration-count: infinite;
 }
 
 .bg {

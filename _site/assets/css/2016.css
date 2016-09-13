@@ -18,7 +18,7 @@ body {
   background-color: #fff;
   color: #000000;
   font-family: 'Maison Neue', sans-serif;
-  font-size: 2.4rem;
+  font-size: 2.7rem;
   letter-spacing: 0.05rem;
   line-height: 1.45;
   margin: 0;
@@ -54,7 +54,7 @@ a {
 
 a:hover,
 button:hover {
-  color: #000; }
+  color: #ff0dbf; }
 
 a:focus,
 a:active,
@@ -182,8 +182,7 @@ input:active {
     .home-link nav a {
       border-bottom: 2px solid transparent;
       color: inherit;
-      display: table;
-      margin-left: 2rem; }
+      display: table; }
       @media screen and (max-width: 1000px) {
         .home-link nav a span {
           display: none; } }
